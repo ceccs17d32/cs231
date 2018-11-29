@@ -1,3 +1,9 @@
+//LINTA MARIAM DANIEL
+  //ROLL_NO:32
+
+
+
+
 #include<stdio.h>
 main()
 {
