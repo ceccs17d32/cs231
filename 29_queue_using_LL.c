@@ -1,4 +1,6 @@
-#include<stdio.h>
+/*Linta Mariam Daniel
+s3d 32 
+queue using ll*/#include<stdio.h>
 #include<stdlib.h>
 
 struct node
