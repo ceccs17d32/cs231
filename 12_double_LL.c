@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3d 32 
+double ll*/
 #include <stdio.h>
 #include <stdlib.h>
 
