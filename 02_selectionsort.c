@@ -1,34 +1,58 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
-  int a[5],i,j,k,n,temp,min;
-  clrscr();
-  printf("enter the size of the array: ");
-  scanf("%d",&n);
-  printf("enter the elements of the array: \n");
-  for(i=0;i<n;i++)
-  {
-    scanf("%d",&a[i]);
-  }
-  min=a[0];
-  printf("the sorted array is: \n");
-  for(i=0;i<n;i++)
-  {
-    for(j=0;j<i+1;j++)
-    {
-      if(a[i]<a[j])
-      {
-	min=a[i];
-	a[i]=a[j];
-	a[j]=min;
-      }
-    }
-  }
-  printf("the sorted array is: ");
-  for(i=0;i<n;i++)
-  {
-    printf("%d",a[i]);
-  }
-  getch();
-  }
+	//Name        :Linta Mariam Daniel 
+	//Class       :S3 D
+	//Program No. : 2
+	//Program name: Selection sort
+
+	#include <stdio.h>
+
+	int selectionSort(int array[], int size) {
+		int i, j, pos, temp;
+		for (i=0; i<size; i++) {
+			pos = i;
+
+			for (j=i; j<size; j++) {
+				if (array[j] < array[pos]) {
+					pos =j;
+				}
+			}
+			if (i != pos) {
+				temp = array[i];
+				array[i] = array[pos];
+				array[pos] = temp;
+			}
+		}
+	}
+
+	int main() {
+		int i, j, pos, array[100], temp, size;
+
+		printf("Enter number of elements in the array : ");
+		scanf("%d", &size);
+
+		printf("Enter the array\n");
+		for (i=0; i<size; i++) {
+			scanf("%d", &array[i]);
+		}
+
+		selectionSort(array, size);
+
+		printf("Sorted array \n");
+		for (i=0; i<size; i++) {
+			printf("%d\n", array[i]);
+		}
+	}
+
+
+
+	OUTPUT:
+		Enter number of elements in the array : 4
+		Enter the array
+		4
+		6
+		2
+		1
+		Sorted array 
+		1
+		2
+		4
+6
