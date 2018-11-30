@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3 d 32
+polynomial addition*/
 #include<stdio.h>
 struct poly
  {
