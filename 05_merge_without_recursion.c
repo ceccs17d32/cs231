@@ -1,3 +1,7 @@
+/*Linta Mariam Daniel
+s3 d 32 
+merge sort:non recursive*/
+
 #include<stdio.h>
 #define MAX 30
 int main()
