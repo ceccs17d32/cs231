@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3 d 32
+Representation of arithmetic expression usingLL*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
