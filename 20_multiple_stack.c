@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3 d 32
+multiple stack using array*/
 #include<stdio.h>
 #include<stdlib.h>
 
