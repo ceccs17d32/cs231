@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3d 32
+stack using array*/
 #include <stdio.h>
 
 int stack[100], n=100, top;
