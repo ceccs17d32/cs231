@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3d 32 
+quicksort:rec*/
 #include<stdio.h>
 void quicksort(int num[25],int first,int last)
 {
