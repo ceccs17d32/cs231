@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3 d 32
+insertion sort*/
 #include<stdio.h>
 #include<conio.h>
 void main()
