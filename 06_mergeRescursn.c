@@ -1,3 +1,6 @@
+/*Linta Mariam Daniel
+s3 d 32
+merge sort:recursive*/
 #include<stdio.h>
 int a[20];
 void merge_sort(int[],int,int);
