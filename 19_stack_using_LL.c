@@ -1,4 +1,6 @@
-include<stdio.h>
+/*Linta Mariam Daniel
+s3d 32 
+stack using ll*/#include<stdio.h>
 #include<conio.h>
 
 struct Node
